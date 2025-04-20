@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>GameChain Pass - Whitelist</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <div class="neon-background"></div>
+
+  <div class="container">
+    <img src="assets/logo.png" alt="GameChain Pass Logo" class="logo" />
+    <h1>GameChain Pass</h1>
+
+    <div class="video-section">
+      <video id="introVideo" autoplay muted loop playsinline>
+        <source src="assets/your-video.mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
+      <div class="video-text">
+        <div id="line1"></div>
+        <div id="line2"></div>
+        <div id="line3"></div>
+        <div id="line4"></div>
+        <div id="line5"></div>
+      </div>
+    </div>
+
+    <div class="email-box">
+      <input type="email" placeholder="Enter your email" />
+      <button>Join Whitelist</button>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+  <script>
+    setTimeout(() => {
+      new Typed("#line1", {
+        strings: ["Discover the Future of Blockchain Gaming."],
+        typeSpeed: 30,
+        showCursor: false
+      });
+    }, 500);
+
+    setTimeout(() => {
+      new Typed("#line2", {
+        strings: ["GameChain Pass is changing the GameFi world with a powerful cross-game mission system that lets players earn rare NFTs and tokens from multiple blockchain games — all in one place."],
+        typeSpeed: 30,
+        showCursor: false
+      });
+    }, 3000);
+
+    setTimeout(() => {
+      new Typed("#line3", {
+        strings: ["Join a community where your gaming skills truly pay off."],
+        typeSpeed: 30,
+        showCursor: false
+      });
+    }, 7000);
+
+    setTimeout(() => {
+      new Typed("#line4", {
+        strings: ["Excited to be part of the revolution?"],
+        typeSpeed: 30,
+        showCursor: false
+      });
+    }, 10000);
+
+    setTimeout(() => {
+      new Typed("#line5", {
+        strings: ["Sign up now to join our whitelist and be among the first to experience the future of Web3 gaming!"],
+        typeSpeed: 30,
+        showCursor: true
+      });
+    }, 13000);
+  </script>
+</body>
+</html>
